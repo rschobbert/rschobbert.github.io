@@ -39,3 +39,40 @@ Basically the site conf looked like this:
 </VirtualHost>
 ```
 
+<h5 a><strong><code>filename in h5 without newline</code></strong></h5>
+```apache
+<VirtualHost 123.456.789.012:80>
+        ServerName some.server.net
+        DocumentRoot /var/www/html/
+
+        <Location /restricted/check.php>
+                AuthType Basic
+                AuthBasicProvider file
+                AuthUserFile /var/www/.mypasswd
+                AuthName "BasicAuth"
+                Require valid-user
+
+                RequestHeader set REMOTE_USER expr=%{REMOTE_USER}
+        </Location>
+</VirtualHost>
+```
+
+
+
+```apache title="bla.txt"
+<VirtualHost 123.456.789.012:80>
+        ServerName some.server.net
+        DocumentRoot /var/www/html/
+
+        <Location /restricted/check.php>
+                AuthType Basic
+                AuthBasicProvider file
+                AuthUserFile /var/www/.mypasswd
+                AuthName "BasicAuth"
+                Require valid-user
+
+                RequestHeader set REMOTE_USER expr=%{REMOTE_USER}
+        </Location>
+</VirtualHost>
+```
+
