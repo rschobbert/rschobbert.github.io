@@ -19,6 +19,9 @@ Further resources:
 The problem was, that just by securing a location with basic authentication, the RequestHeader REMOTE_USER was not automatically added to the request. So I was looking for a way to achieve this in the <Location> block. I found a lot of examples with using mod_rewrite and rewriting the request. But that didn't work, at least not the way I tried.
 
 Basically the site conf looked like this:
+
+<h5 a><strong><code>/etc/apache2/sites-available/some.server.net.conf</code></strong></h5>
+
 ```apache
 <VirtualHost 123.456.789.012:80>
         ServerName some.server.net
