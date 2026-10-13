@@ -13,7 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Knowhow and Thoughts<br>of a Software Developer"
+title: |
+  Knowhow and Thoughts
+  of a Software Engineer
 email: rschobbert.github@emesit.de
 description: >-
   Senior Software Engineer & Architect with over 25 years of experience.
@@ -59,7 +61,7 @@ plugins:
 author:
   name   : "R&uuml;diger Schobbert"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Java, Spring, Web, AI<br>Senior Developer and Devops<br>With HEART, MIND and DILIGENCE<br>always eager to learn"
+  bio    : "Senior Software Engineer<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp; DevOps Expert<br>Driven by Heart, Mind &amp; Soul<br>Java · Spring · Web · AI<br>Crafting sustainable software"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
