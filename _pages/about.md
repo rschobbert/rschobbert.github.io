@@ -13,4 +13,4 @@ A few years later, I founded my current company together with a former colleague
 Since then, I have worked on numerous projects, written millions of lines of code, and watched ideas and concepts come and go.
 I've held trainings, spoken at conferences, and helped companies build robust, testable, bug-free software that just works.
 
-&#x2764; And I have always loved what I do... &#x2764;
+And I have always loved what I do... :heart:
