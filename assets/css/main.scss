@@ -1,0 +1,15 @@
+---
+# Dieser Front-Matter-Block ist zwingend erforderlich!
+---
+
+@import "minimal-mistakes";
+
+.sidebar .author__content .author__name a {
+  border-bottom: orange 1px solid !important;
+}
+
+@media (min-width: 64em) {
+  .masthead__inner-wrap {
+    padding: 0.6em !important;
+  }
+}
