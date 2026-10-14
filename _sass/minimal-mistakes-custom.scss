@@ -1,9 +1,9 @@
 body {
-  background-color: #f5f5f5;
+  background-color: red !important;
 }
 
-.sidebar .author__content .author__name .u-url {
-    border-bottom: orange 1px solid;
+.sidebar .author__content .author__name a {
+    border-bottom: orange 1px solid !important;
 }
 
 @media (min-width: 64em) {
