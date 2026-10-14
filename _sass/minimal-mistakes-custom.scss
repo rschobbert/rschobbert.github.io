@@ -2,11 +2,12 @@ body {
   background-color: #f5f5f5;
 }
 
+.sidebar .author__content .author__name .u-url {
+    border-bottom: orange 1px solid;
+}
+
 @media (min-width: 64em) {
   .masthead__inner-wrap {
     padding: 0.6em !important;
-  }
-  .sidebar .author__content .author__name .u-url {
-    border-bottom: orange 1px solid;
   }
 }
